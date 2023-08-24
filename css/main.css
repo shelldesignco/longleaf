@@ -2115,7 +2115,7 @@ input::-moz-focus-inner {
 
 .hero-content h1 {
   font-weight: 700;
-  font-size: 7.6rem;
+  font-size: 7rem;
   line-height: 1.263;
   letter-spacing: 0;
   color: #ffffff;
@@ -2127,13 +2127,14 @@ input::-moz-focus-inner {
 
 .hero-content h2 {
   font-weight: 400;
-  font-size: 4.6rem;
+  font-size: 3rem;
   line-height: 1.0;
   letter-spacing: 0;
   color: #ffffff;
   margin-top: 0;
-  margin-right: 355px;
-  padding-top: 1rem;
+  margin-left:4rem;
+  margin-right: 250px;
+  padding-top: 2rem;
   position: relative;
 }
 
