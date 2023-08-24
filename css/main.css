@@ -2125,6 +2125,18 @@ input::-moz-focus-inner {
   position: relative;
 }
 
+.hero-content h2 {
+  font-weight: 400;
+  font-size: 4.6rem;
+  line-height: 1.0;
+  letter-spacing: 0;
+  color: #ffffff;
+  margin-top: 0;
+  margin-right: 355px;
+  padding-top: 1rem;
+  position: relative;
+}
+
 .hero-content h1::before {
   display: block;
   content: "";
