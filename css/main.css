@@ -2053,10 +2053,10 @@ input::-moz-focus-inner {
 
 
 /* ===================================================================
- * # hero
+ * # 
  *
  * ------------------------------------------------------------------- */
-.s-hero {
+.s- {
   width: 100%;
   height: 100vh;
   min-height: 82rem;
@@ -2065,7 +2065,7 @@ input::-moz-focus-inner {
   position: relative;
 }
 
-.s-hero::before {
+.s-::before {
   display: block;
   content: "";
   position: absolute;
@@ -2077,14 +2077,14 @@ input::-moz-focus-inner {
   opacity: .5;
 }
 
-.no-js .s-hero {
+.no-js .s- {
   background: #000000;
 }
 
 /* -------------------------------------------------------------------
- * ## hero left bar
+ * ##  left bar
  * ------------------------------------------------------------------- */
-.hero-left-bar {
+.-left-bar {
   height: 100%;
   width: 8rem;
   background-color: #000000;
@@ -2096,9 +2096,9 @@ input::-moz-focus-inner {
 }
 
 /* -------------------------------------------------------------------
- * ## hero content
+ * ##  content
  * ------------------------------------------------------------------- */
-.hero-content {
+.-content {
   height: 100%;
   max-width: 1400px;
   padding-top: 20vh;
@@ -2109,11 +2109,11 @@ input::-moz-focus-inner {
   position: relative;
 }
 
-.hero-content__text {
+.-content__text {
   position: relative;
 }
 
-.hero-content h1 {
+.-content h1 {
   font-weight: 700;
   font-size: 7rem;
   line-height: 1.263;
@@ -2125,18 +2125,9 @@ input::-moz-focus-inner {
   position: relative;
 }
 
-.hero-content h2 {
-  font-weight: 400;
-  font-size: 3rem;
-  line-height: 1.0;
-  letter-spacing: 0;
+.-content p {
   color: #ffffff;
-  margin-top: 0;
-  margin-left:4rem;
-  margin-right: 250px;
-  padding-top: 2rem;
-  position: relative;
-}
+  }
 
 .hero-content h1::before {
   display: block;
