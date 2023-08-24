@@ -31,11 +31,11 @@
  *    ## mobile menu toggle
  *  # hero
  *    ## hero left bar
- *    ## hero content
- *    ## hero content buttons
- *    ## hero social
- *    ## hero scroll
- *    ## hero animations
+ *    ##  content
+ *    ##  content buttons
+ *    ##  social
+ *    ##  scroll
+ *    ##  animations
  *  # about
  *    ## about content
  *    ## schedule of services
@@ -2053,7 +2053,7 @@ input::-moz-focus-inner {
 
 
 /* ===================================================================
- * # hero
+ * # 
  *
  * ------------------------------------------------------------------- */
 .s-hero {
@@ -2125,17 +2125,9 @@ input::-moz-focus-inner {
   position: relative;
 }
 
-.hero-content h2 {
-  font-weight: 400;
-  font-size: 3rem;
-  line-height: 1.0;
-  letter-spacing: 0;
+.hero-content p {
+  
   color: #ffffff;
-  margin-top: 0;
-  margin-left:4rem;
-  margin-right: 250px;
-  padding-top: 2rem;
-  position: relative;
 }
 
 .hero-content h1::before {
