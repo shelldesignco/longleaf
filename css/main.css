@@ -2365,7 +2365,9 @@ html.no-csstransitions .hero-content {
   .hero-content h1 {
     margin-left: 4rem;
   }
-
+  .hero-content p {
+    margin-left: 4rem;
+  }
 }
 
 @media screen and (max-width:1600px) {
